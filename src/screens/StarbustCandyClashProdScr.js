@@ -422,7 +422,7 @@ const StarbustCandyClashProdScr = ({navigation, route}) => {
     }
   };
 
-  ////////////////////////////
+  //////////////////////////////
   const [isLoading, setIsLoading] = useState(true); // Стан завантаження
   const [skipFirstLoadEnd, setSkipFirstLoadEnd] = useState(true); // Пропускаємо перший `loadingEnd`
   const [isLoadingInOnError, setIsLoadingInOnError] = useState(false);
